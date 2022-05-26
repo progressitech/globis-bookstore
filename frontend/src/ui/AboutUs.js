@@ -4,16 +4,20 @@ import {Col, Container, Row} from "react-bootstrap";
 export function AboutUs() {
     return (
         <>
-            <Container fluid className="background-image text-dark">
-                <Col md={2} className="p-3">
-                    <h1>About Us</h1>
-                </Col>
-                <Col md={4} className="ms-auto flex align-items-end justify-content-end float-end">
-                    <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show
-                        that show to the people who make shows, and on the strength of that one show they decide if
-                        they're going to make more shows. Some pilots get picked and become television programs. Some
-                        don't, become nothing. She starred in one of the ones that became nothing.</p>
-                </Col>
+            <Container fluid className="background-image text-dark d-flex">
+                <Row>
+                    <Col md={2} className="p-3">
+                        <h1>About Us</h1>
+                    </Col>
+                    <Col md={4} className="ms-auto d-flex align-items-end justify-content-end">
+                        <p>Well, the way they make shows is, they make one show. That show's
+                            called a pilot. Then they show
+                            that show to the people who make shows, and on the strength of that one show they decide if
+                            they're going to make more shows. Some pilots get picked and become television programs.
+                            Some
+                            don't, become nothing. She starred in one of the ones that became nothing.</p>
+                    </Col>
+                </Row>
             </Container>
             <Container fluid className="bg-light p-4">
                 <Row>
