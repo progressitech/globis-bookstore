@@ -1,5 +1,5 @@
-.background-image {
-    background: url(https://cdn.wallpapersafari.com/52/88/AUnDl9.jpg) no-repeat center fixed;
-    background-size: cover;
-    height: 30rem;
+.website-icon:hover {
+    background-color: #212529;
+    color: white;
+    transition-duration: 750ms;
 }

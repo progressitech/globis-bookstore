@@ -1,13 +1,17 @@
-import React from 'react'
+import React from "react";
+import {
+    Nav,
+    Button,
+  } from "react-bootstrap"
 
-export function GamesCard(props) {
+export function NavButtons(props) {
+  const { link, type } = props.button;
 
-    const {title, genre, releaseDate} = props.game
-
-    return (
-        <>
-            <h2>{title}</h2>
-            <p>is a {genre} that was released in {releaseDate}</p>
-        </>
-    )
+  return (
+    <>
+      <Nav.Link href='/'{link}'"'>
+        <Button>{type}</Button>
+      </Nav.Link>
+    </>
+  );
 }

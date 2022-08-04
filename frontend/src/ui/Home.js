@@ -17,7 +17,7 @@ export function Home() {
                     <Row>
                         <Col lg={2}>
                             <img
-                                src="https://images.genpi.co/uploads/arsip/normal/2021/11/15/penampilan-baru-nick-fury-dalam-serial-secret-invasion-foto-3eox.jpg"
+                                src=""
                                 className="img-fluid border-dark-1" alt="Placeholder"/>
                         </Col>
                         <Col lg={10} className="ps-4">

@@ -4,7 +4,7 @@ import {Col, Container, Row} from "react-bootstrap";
 export function AboutUs() {
     return (
         <>
-            <Container fluid className="background-image text-dark d-flex">
+            <Container fluid>
                 <Row>
                     <Col md={2} className="p-3">
                         <h1>About Us</h1>
