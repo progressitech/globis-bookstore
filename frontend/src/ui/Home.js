@@ -24,10 +24,17 @@ export function Home() {
                 </Row>
                 <Row>
                     <Col md={6} className="book-launch-text-column">
-                        <h5>Introducing "Plausible Accolade"</h5>
-                        <h6>By Samuel Kumi Asiedu</h6>
-                        <h6>When</h6>
+                        <h5 className="mb-4">Introducing "Plausible Accolade"</h5>
+                        <h6 className="mb-4">By Samuel Kumi Asiedu</h6>
+                        <br />
+                        <h6 className="mb-2">When</h6>
                         <hr />
+                        <h6 className="">Jul 12, 2023, 7:00 AM</h6>
+                        <br />
+                        <h6 className="mb-2">Where</h6>
+                        <hr />
+                        <h6 className="">Video Conference</h6>
+                        <button className="border-dark border">RSVP</button>
                     </Col>
                     <Col md={6}>
                         <Image fluid src="https://innovating.capital/wp-content/uploads/2021/05/vertical-placeholder-image.jpg" className="place-holder-image-1" alt="Place-holder Book Cover" />
