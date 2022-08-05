@@ -23,13 +23,13 @@ export function Home() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={6}>
+                    <Col md={6} className="book-launch-text-column">
                         <h5>Introducing "Plausible Accolade"</h5>
                         <h6>By Samuel Kumi Asiedu</h6>
                         <h6>When</h6>
                     </Col>
                     <Col md={6}>
-                        <Image fluid src="https://innovating.capital/wp-content/uploads/2021/05/vertical-placeholder-image.jpg" className="mx-auto d-block" alt="Place-holder Book Cover" />
+                        <Image fluid src="https://innovating.capital/wp-content/uploads/2021/05/vertical-placeholder-image.jpg" className="place-holder-image-1" alt="Place-holder Book Cover" />
                     </Col>
                 </Row>
             </Container>
