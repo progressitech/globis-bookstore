@@ -6,10 +6,9 @@ export function Home() {
   return (
     <>
       <Container
-        fluid
-        className="bg-dark text-dark bg-opacity-10 rounded my-5 p-4"
+        className="container-1-image text-dark bg-opacity-10 rounded my-5 p-4"
       >
-        <Image src="https://placehold.jp/1860x500.png" className="img-fluid" />
+        <h1>Special deals, <br /> Interesting <br />Books, <br />At best prices.</h1>
       </Container>
       <Container>
                 <Row>

@@ -4,6 +4,15 @@
     transition-duration: 750ms;
 }
 
+.container-1-image {
+    background: url(https://placehold.jp/1860x500.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+    height: 30rem;
+}
+
 Footer {
     background-color: (14,52,90);
 }
