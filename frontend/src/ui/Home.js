@@ -6,11 +6,8 @@ import {Avengers} from "./Avengers";
 export function Home() {
     return (
         <>
-            <Container className="bg-dark text-dark bg-opacity-10 rounded my-5 p-4">
-                <h1>Samuel Says...</h1>
-                <p className="pe-4">
-                    The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
-                <button className="btn btn-primary btn-lg" type="button">Learn more</button>
+            <Container className="bg-dark text-dark bg-opacity-10 rounded my-2 p-4">
+                <h1>Special deals, <br /> Interesting <br />Books, <br />At best prices.</h1>
             </Container>
             <Container fluid className="bg-dark text-dark bg-opacity-25 mb-5 py-5">
                 <Container className="px-0">
@@ -30,6 +27,11 @@ export function Home() {
             <Container>
                 <Row>
                     <Avengers/>
+                </Row>
+            </Container>
+            <Container>
+                <Row>
+                <h3>Coming Up</h3>
                 </Row>
             </Container>
         </>

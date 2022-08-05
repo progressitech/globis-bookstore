@@ -12,7 +12,7 @@ import "./App.css";
 
 export function Navigation() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container fluid>
         <Col md={2} className="ms-4 mt-4">
           <Navbar.Brand href="/">
