@@ -29,7 +29,7 @@ export function Home() {
                         <br />
                         <h6 className="mb-2">When</h6>
                         <hr />
-                        <h6 className="">Jul 12, 2023, 7:00 AM</h6>
+                        <h6 className="mb-4">Jul 12, 2023, 7:00 AM</h6>
                         <br />
                         <h6 className="mb-2">Where</h6>
                         <hr />
