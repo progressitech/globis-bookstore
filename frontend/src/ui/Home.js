@@ -34,7 +34,7 @@ export function Home() {
                         <h6 className="mb-2">Where</h6>
                         <hr />
                         <h6 className="">Video Conference</h6>
-                        <button className="border-dark border">RSVP</button>
+                        <button className="border-dark border bg-transparent px-4 py-2">RSVP NOW</button>
                     </Col>
                     <Col md={6}>
                         <Image fluid src="https://innovating.capital/wp-content/uploads/2021/05/vertical-placeholder-image.jpg" className="place-holder-image-1" alt="Place-holder Book Cover" />
