@@ -17,6 +17,6 @@
     font-size: 5rem;
 }
 
-Footer {
-    background-color: (14,52,90);
+.footer {
+    background-color: blue;
 }
