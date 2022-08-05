@@ -31,7 +31,10 @@ export function Home() {
             </Container>
             <Container>
                 <Row>
-                <h3>Coming Up</h3>
+                    <Col md={6}>
+                        <h3>Coming Up</h3>
+                        <h1>BOOK LAUNCH</h1>
+                    </Col>
                 </Row>
             </Container>
         </>
