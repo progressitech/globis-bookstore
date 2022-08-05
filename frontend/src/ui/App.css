@@ -13,6 +13,10 @@
     height: 30rem;
 }
 
+.container-1-h1 {
+    font-size: 5rem;
+}
+
 Footer {
     background-color: (14,52,90);
 }

@@ -8,7 +8,7 @@ export function Home() {
       <Container
         className="container-1-image text-dark bg-opacity-10 rounded my-5 p-4"
       >
-        <h1>Special deals, <br /> Interesting <br />Books, <br />At best prices.</h1>
+        <h1 className="container-1-h1">Special deals, <br /> Interesting <br />Books, <br />At best prices.</h1>
       </Container>
       <Container>
                 <Row>
