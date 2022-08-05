@@ -23,8 +23,9 @@
     padding-left: 10rem;
 }
 
-.book-launch-text-column h5, h6 {
-    margin-bottom: 1.5rem;
+.book-launch-text-column button {
+    border-width: .2rem;
+    padding-top: 5rem;
 }
 
 .place-holder-image-1 {
