@@ -9,7 +9,7 @@ export function NavButtons(props) {
 
   return (
     <>
-      <Nav.Link href='/'{link}'"'>
+      <Nav.Link href={link}>
         <Button>{type}</Button>
       </Nav.Link>
     </>
