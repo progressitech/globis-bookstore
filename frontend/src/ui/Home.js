@@ -44,9 +44,9 @@ export function Home() {
           </button>
         </Row>
       </Container>
-      <Container className="px-5 pb-5">
+      <Container className="my-5">
         <Row>
-          <Col md={12} className="text-center pb-5">
+          <Col md={12} className="book-launch-header text-center pb-4">
             <h5>Coming Up</h5>
             <h1>BOOK LAUNCH</h1>
           </Col>
