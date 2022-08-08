@@ -11,8 +11,7 @@ export function Footer() {
             <Col md={3}>
               <p>Globis Bookstore</p>
               <br />
-              <p>Bealeton, Virginia, USA</p>
-              <p>+1 (571) 376-3319</p>
+              <p>Bealeton, Virginia, USA <br />+1 (571) 376-3319</p>
               <a
                 href="mailto:samuelasiedu@hotmail.com"
                 className="link-unstyled"
@@ -80,11 +79,11 @@ export function Footer() {
                     name="email"
                     id="email"
                     placeholder="Enter your email here"
-                    className="footer-background-color text-light ps-2"
+                    className="email-input footer-background-color text-light ps-2"
                   />
                 </p>
                 <p>
-                  <button type="submit" className="footer-submit-text-color border border-none p-1">Subscribe</button>
+                  <button type="submit" className="footer-submit-button">Subscribe</button>
                 </p>
               </form>
             </Col>

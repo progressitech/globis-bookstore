@@ -1,25 +1,58 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import { Avengers } from "./Avengers";
+import { Books } from "./Books";
 
 export function Home() {
   return (
     <>
-      <Container className="container-1-image text-dark bg-opacity-10 rounded my-3 p-4">
-        <h1 className="container-1-h1">
-          Special deals, <br /> Interesting <br />
-          Books, <br />
+      <Container
+        fluid
+        className="container-1-image bg-opacity-10 rounded p-5 mb-5"
+      >
+        <h1 className="ps-4 ms-3 container-1-h1 text-danger">Special deals,</h1>
+        <h1 className="ps-4 ms-3 container-1-h1 text-light">Interesting</h1>
+        <h1 className="ps-4 ms-3 container-1-h1 text-success">Books,</h1>
+        <h1 className="ps-4 ms-3 container-1-h1 text-primary">
           At best prices.
         </h1>
       </Container>
-      <Container>
+
+      <Container
+        fluid
+        className="book-container text-light text-center rounded p-5 my-3"
+      >
         <Row>
-          <Avengers />
+          <h1>BEST SELLERS</h1>
+         <hr />
         </Row>
-      </Container>
-      <Container className="px-5 pb-5">
         <Row>
-          <Col md={12} className="text-center pb-5">
+          <Books />
+        </Row>
+        <br />
+        <Row>
+          <hr />
+          <h5>This Month's</h5>
+          <h1>RECOMMENDED BOOKS</h1>
+          <hr />
+        </Row>
+        <Row>
+          <Books />
+        </Row>
+        <br />
+        <hr />
+        <Row>
+          <h1 className="container-1-h1">
+            THERE'S NO <br />
+            SUCH THING AS TOO <br /> 
+            MANY BOOKS
+          </h1>
+        </Row>
+        <button className="our-story-button mt-3">Read Our Story</button>
+      </Container>
+
+      <Container className="my-5">
+        <Row>
+          <Col md={12} className="book-launch-header text-center pb-4">
             <h5>Coming Up</h5>
             <h1>BOOK LAUNCH</h1>
           </Col>
@@ -36,7 +69,7 @@ export function Home() {
             <h6 className="mb-2">Where</h6>
             <hr />
             <h6 className="mb-5">Video Conference</h6>
-            <button className="bg-transparent px-4 py-2">RSVP NOW</button>
+            <button className="rsvp-button">RSVP NOW</button>
           </Col>
           <Col md={6}>
             <Image

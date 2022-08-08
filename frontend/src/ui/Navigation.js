@@ -23,21 +23,21 @@ export function Navigation() {
     },
     {
       link: "/login",
-      type: "Login",
+      type: [<i class="fa-solid fa-user pe-2"></i>, "Login"],
     },
     {
       link: "/cart",
-      type: "Cart",
+      type: [<i class="fa-solid fa-cart-shopping pe-2"></i>, "Cart"],
     },
   ];
 
   return (
     <>
       <Navbar expand="lg">
-        <Container>
+        <Container fluid className="mx-5 px-5">
           <Navbar.Brand href="/">
-            <p class="text-light bg-dark fs-6 text-center mb-0">GLOBIS</p>
-            <p class="border border-dark website-icon fs-6 text-center mb-0 px-1">
+            <p class="website-icon-upper">GLOBIS</p>
+            <p class="website-icon-lower">
               BOOKSTORE
             </p>
           </Navbar.Brand>
