@@ -23,6 +23,7 @@ export function Home() {
       >
         <Row>
           <h1>BEST SELLERS</h1>
+         <hr />
         </Row>
         <Row>
           <Books />
@@ -40,12 +41,13 @@ export function Home() {
         <br />
         <hr />
         <Row>
-          <h1>
+          <h1 className="container-1-h1">
             THERE'S NO <br />
-            SUCH THING AS TOO <br /> MANY BOOKS
+            SUCH THING AS TOO <br /> 
+            MANY BOOKS
           </h1>
         </Row>
-        <button className="our-story-button">Read Our Story</button>
+        <button className="our-story-button mt-3">Read Our Story</button>
       </Container>
 
       <Container className="my-5">

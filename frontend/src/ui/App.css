@@ -67,6 +67,10 @@ hr {
   background-color: var(--primary-color);
 }
 
+.book-container-large-text {
+    font-size: 5rem;
+}
+
 .our-story-button {
   background-color: var(--primary-color);
   color: var(--secondary-color);
