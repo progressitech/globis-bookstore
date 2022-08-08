@@ -23,14 +23,23 @@ export function Avengers() {
       image: "https:",
       info: 'Captain America is the alter ego of Steve Rogers, a frail young artist enhanced to the peak of human perfection by an experimental "super-soldier serum" after joining the military to aid the United States government\'s efforts.',
     },
+    {
+      name: "Captain America",
+      image: "https:",
+      info: 'Captain America is the alter ego of Steve Rogers, a frail young artist enhanced to the peak of human perfection by an experimental "super-soldier serum" after joining the military to aid the United States government\'s efforts.',
+    },
+    {
+      name: "Captain America",
+      image: "https:",
+      info: 'Captain America is the alter ego of Steve Rogers, a frail young artist enhanced to the peak of human perfection by an experimental "super-soldier serum" after joining the military to aid the United States government\'s efforts.',
+    },
   ];
-  
+
   return (
     <>
-        {avengers.map((avenger) => (
-          <AvengersCard avenger={avenger} key={avenger.name} />
-        ))}
+      {avengers.map((avenger) => (
+        <AvengersCard avenger={avenger} key={avenger.name} />
+      ))}
     </>
   );
 }
-

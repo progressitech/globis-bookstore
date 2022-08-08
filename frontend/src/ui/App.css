@@ -1,40 +1,61 @@
+:root {
+    --primary-color: rgb(14, 52, 90);
+    --secondary-color: rgb(225, 225, 225);
+    --on-primary: rgb(34, 72, 110);
+}
+
+
 .website-icon:hover {
-    background-color: #212529;
-    color: white;
-    transition-duration: 750ms;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  transition-duration: 750ms;
 }
 
 .container-1-image {
-    background: url(https://placehold.jp/1860x500.png) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: auto;
-    height: 30rem;
+  background: url(https://placehold.jp/1860x500.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto;
+  height: 30rem;
 }
 
 .container-1-h1 {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 .book-container {
-    background-color: rgb(14,52,90);
+  background-color: var(--primary-color);
 }
 
 .book-launch-text-column {
-    padding-top: 8rem;
-    padding-bottom:8rem;
-    padding-left: 10rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 10rem;
 }
 
 .book-launch-text-column button {
-    border-width: .2rem;
+  border-width: 0.2rem;
 }
 
 .place-holder-image-1 {
-    width: 30rem;
-    height: 35rem;
-    max-width: 100%;
-    height: auto;
+  width: 30rem;
+  height: 35rem;
+  max-width: 100%;
+  height: auto;
 }
 
+.link-unstyled,
+.link-unstyled:link,
+.link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.footer-background-color {
+    background-color: var(--primary-color);
+}
+
+.footer-submit-text-color {
+    color: var(--primary-color);
+}
