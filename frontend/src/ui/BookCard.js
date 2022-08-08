@@ -1,7 +1,7 @@
 import React from 'react'
 import {Col, Container} from "react-bootstrap";
 
-export function AvengersCard(props) {
+export function BookCard(props) {
 
     const {image, name, info} = props.avenger
 

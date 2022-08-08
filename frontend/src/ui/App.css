@@ -44,6 +44,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: auto;
+  overflow: hidden;
   height: 30rem;
 }
 
