@@ -79,7 +79,7 @@ export function Footer() {
                     name="email"
                     id="email"
                     placeholder="Enter your email here"
-                    className="footer-background-color text-light ps-2"
+                    className="email-input footer-background-color text-light ps-2"
                   />
                 </p>
                 <p>
