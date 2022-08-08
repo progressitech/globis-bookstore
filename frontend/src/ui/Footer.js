@@ -83,7 +83,7 @@ export function Footer() {
                   />
                 </p>
                 <p>
-                  <button type="submit" className="footer-submit-text-color border border-none p-1">Subscribe</button>
+                  <button type="submit" className="footer-submit-button">Subscribe</button>
                 </p>
               </form>
             </Col>

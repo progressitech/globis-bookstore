@@ -5,7 +5,10 @@ import { Books } from "./Books";
 export function Home() {
   return (
     <>
-      <Container fluid className="container-1-image bg-opacity-10 rounded p-5">
+      <Container
+        fluid
+        className="container-1-image bg-opacity-10 rounded p-5 mb-5"
+      >
         <h1 className="ps-4 ms-3 container-1-h1 text-danger">Special deals,</h1>
         <h1 className="ps-4 ms-3 container-1-h1 text-light">Interesting</h1>
         <h1 className="ps-4 ms-3 container-1-h1 text-success">Books,</h1>
@@ -13,12 +16,14 @@ export function Home() {
           At best prices.
         </h1>
       </Container>
-      <Container className="bg-white text-center">
+
+      <Container
+        fluid
+        className="book-container text-light text-center rounded p-5 my-3"
+      >
         <Row>
           <h1>BEST SELLERS</h1>
         </Row>
-      </Container>
-      <Container className="book-container text-light text-center p-3 my-3">
         <Row>
           <Books />
         </Row>
@@ -39,11 +44,10 @@ export function Home() {
             THERE'S NO <br />
             SUCH THING AS TOO <br /> MANY BOOKS
           </h1>
-          <button className="border-light text-light bg-transparent px-4 py-2">
-            Read Our Story
-          </button>
         </Row>
+        <button className="our-story-button">Read Our Story</button>
       </Container>
+
       <Container className="my-5">
         <Row>
           <Col md={12} className="book-launch-header text-center pb-4">
@@ -63,7 +67,7 @@ export function Home() {
             <h6 className="mb-2">Where</h6>
             <hr />
             <h6 className="mb-5">Video Conference</h6>
-            <button className="bg-transparent px-4 py-2">RSVP NOW</button>
+            <button className="rsvp-button">RSVP NOW</button>
           </Col>
           <Col md={6}>
             <Image
