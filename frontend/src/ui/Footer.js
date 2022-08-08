@@ -11,8 +11,7 @@ export function Footer() {
             <Col md={3}>
               <p>Globis Bookstore</p>
               <br />
-              <p>Bealeton, Virginia, USA</p>
-              <p>+1 (571) 376-3319</p>
+              <p>Bealeton, Virginia, USA <br />+1 (571) 376-3319</p>
               <a
                 href="mailto:samuelasiedu@hotmail.com"
                 className="link-unstyled"
