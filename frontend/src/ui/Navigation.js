@@ -36,8 +36,8 @@ export function Navigation() {
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="/">
-            <p class="text-light bg-dark fs-6 text-center mb-0">GLOBIS</p>
-            <p class="border border-dark website-icon fs-6 text-center mb-0 px-1">
+            <p class="website-icon-upper fs-6 text-center mb-0">GLOBIS</p>
+            <p class="website-icon-lower fs-6 text-center mb-0 px-1">
               BOOKSTORE
             </p>
           </Navbar.Brand>
