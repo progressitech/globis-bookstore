@@ -1,8 +1,8 @@
 import React from "react";
-import { AvengersCard } from "./AvengersCard";
+import { BookCard } from "./BookCard";
 
-export function Avengers() {
-  const avengers = [
+export function Books() {
+  const books = [
     {
       name: "Iron Man",
       image: "https:",
@@ -37,8 +37,8 @@ export function Avengers() {
 
   return (
     <>
-      {avengers.map((avenger) => (
-        <AvengersCard avenger={avenger} key={avenger.name} />
+      {books.map((book) => (
+        <BookCard avenger={book} key={book.name} />
       ))}
     </>
   );

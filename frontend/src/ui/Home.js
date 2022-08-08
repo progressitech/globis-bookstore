@@ -1,14 +1,15 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import { Avengers } from "./Avengers";
+import { Books } from "./Books";
 
 export function Home() {
   return (
     <>
-      <Container className="container-1-image text-dark bg-opacity-10 rounded my-3 p-4">
-        <h1 className="container-1-h1">
-          Special deals, <br /> Interesting <br />
-          Books, <br />
+      <Container fluid className="container-1-image bg-opacity-10 rounded p-5">
+        <h1 className="ps-4 ms-3 container-1-h1 text-danger">Special deals,</h1>
+        <h1 className="ps-4 ms-3 container-1-h1 text-light">Interesting</h1>
+        <h1 className="ps-4 ms-3 container-1-h1 text-success">Books,</h1>
+        <h1 className="ps-4 ms-3 container-1-h1 text-primary">
           At best prices.
         </h1>
       </Container>
@@ -19,7 +20,7 @@ export function Home() {
       </Container>
       <Container className="book-container text-light text-center p-3 my-3">
         <Row>
-          <Avengers />
+          <Books />
         </Row>
         <br />
         <Row>
@@ -27,23 +28,23 @@ export function Home() {
           <h5>This Month's</h5>
           <h1>RECOMMENDED BOOKS</h1>
           <hr />
-          </Row>
-          <Row>
-            <Avengers />
-          </Row>
-          <br />
-          <hr />
-          <Row>
-            <h1>
-              THERE'S NO <br />
-              SUCH THING AS TOO <br /> MANY BOOKS
-            </h1>
-            <button className="book-container-btn border-light text-light bg-transparent px-4 py-2 my-3 mx-auto">
+        </Row>
+        <Row>
+          <Books />
+        </Row>
+        <br />
+        <hr />
+        <Row>
+          <h1>
+            THERE'S NO <br />
+            SUCH THING AS TOO <br /> MANY BOOKS
+          </h1>
+          <button className="book-container-btn border-light text-light bg-transparent px-4 py-2 my-3 mx-auto">
               Read Our Story
             </button>
             <hr />
             <br />
-          </Row>
+        </Row>
       </Container>
       <Container className="my-5">
         <Row>
