@@ -4,6 +4,14 @@
   --on-primary: rgba(14, 52, 90, 0.7);
 }
 
+.link-unstyled,
+.link-unstyled:link,
+.link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Navigation Bar */
 .website-icon-upper {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -30,10 +38,6 @@
   transition-duration: 750ms;
 }
 
-hr {
-  width: 2 rem;
-}
-
 .navbuttons {
   color: var(--primary-color);
 }
@@ -42,12 +46,30 @@ hr {
   color: var(--on-primary);
 }
 
-.link-unstyled,
-.link-unstyled:link,
-.link-unstyled:hover {
-  color: inherit;
-  text-decoration: inherit;
-}
+
+/* Footer */
+
+.footer-background-color {
+    background-color: var(--primary-color);
+  }
+  
+  
+  .footer-submit-button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: .05;
+    padding: .3em 3.8rem;
+  }
+  
+  .footer-submit-button:hover {
+    border-width: .05rem;
+    border-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition-duration: 750ms;
+  }
+  
+/* Homepage */
 
 .container-1-image {
   background: url(https://placehold.jp/1860x500.png) no-repeat center center;
@@ -115,25 +137,11 @@ hr {
   height: auto;
 }
 
-.footer-background-color {
-  background-color: var(--primary-color);
-}
+/* About Us */
 
-.email-input {
-    width: 3.8;
-}
-
-.footer-submit-button {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  border: .05;
-  padding: .3em 3.8rem;
-}
-
-.footer-submit-button:hover {
-  border-width: .05rem;
-  border-color: var(--secondary-color);
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  transition-duration: 750ms;
-}
+.about-us-container {
+    width: 60rem;
+    height: 65rem;
+    max-width: 100%;
+    height: auto;
+  }
