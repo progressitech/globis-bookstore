@@ -12,35 +12,41 @@ export function Home() {
           At best prices.
         </h1>
       </Container>
+      <Container className="bg-white text-center">
+        <Row>
+          <p class="text-light bg-dark fs-6 text-center mb-0">GLOBIS</p>
+          <p class="border border-dark website-icon fs-6 text-center mb-0 px-1">
+            BOOKSTORE
+          </p>
+          <h1>BEST SELLERS</h1>
+        </Row>
+      </Container>
       <Container className="book-container text-light text-center">
         <Row>
-            <Col md={12}>
-                <h1>BEST SELLERS</h1>
-                <br />
-            </Col>
+          <Avengers />
         </Row>
-                <Row>
-                    <Avengers/>
-                </Row>
-                <br />
-                <Row>
-          <Col md={12} className="text-center pb-5">
-            <hr />
-            <h5>This Month's</h5>
-            <h1>RECOMMENDED BOOKS</h1>
-            <hr />
-            <Row>
-            <Avengers/>
-            </Row>
-            <br />
-            <hr />
-            <Row>
-                <h1>THERE'S NO <br />SUCH THING AS TOO <br /> MANY BOOKS</h1>
-                <button className="border-light bg-transparent">Read Our Story</button>
-            </Row>
-          </Col>
-        </Row>
-        </Container>
+        <br />
+        <Row>
+          <hr />
+          <h5>This Month's</h5>
+          <h1>RECOMMENDED BOOKS</h1>
+          <hr />
+          </Row>
+          <Row>
+            <Avengers />
+          </Row>
+          <br />
+          <hr />
+          <Row>
+            <h1>
+              THERE'S NO <br />
+              SUCH THING AS TOO <br /> MANY BOOKS
+            </h1>
+            <button className="border-light bg-transparent">
+              Read Our Story
+            </button>
+          </Row>
+      </Container>
       <Container className="px-5 pb-5">
         <Row>
           <Col md={12} className="text-center pb-5">
