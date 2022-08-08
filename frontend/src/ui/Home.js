@@ -38,9 +38,11 @@ export function Home() {
               THERE'S NO <br />
               SUCH THING AS TOO <br /> MANY BOOKS
             </h1>
-            <button className="border-light text-light bg-transparent px-4 py-2">
+            <button className="book-container-btn border-light text-light bg-transparent px-4 py-2 my-3 mx-auto">
               Read Our Story
             </button>
+            <hr />
+            <br />
           </Row>
       </Container>
       <Container className="my-5">

@@ -30,6 +30,10 @@
   transition-duration: 750ms;
 }
 
+hr {
+  width: 2 rem;
+}
+
 .navbuttons {
   color: var(--primary-color);
 }
@@ -80,6 +84,12 @@
   height: 35rem;
   max-width: 100%;
   height: auto;
+}
+
+.rsvp-button {
+  border-color: rgb(14, 52, 90)!important;
+  color: rgb(14, 52, 90)!important;
+
 }
 
 .link-unstyled,
