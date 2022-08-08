@@ -1,8 +1,6 @@
 import React from "react";
-import {
-    Nav,
-    Button,
-  } from "react-bootstrap"
+import { Nav } from "react-bootstrap";
+import "./App.css";
 
 export function NavButtons(props) {
   const { link, type } = props.button;
@@ -10,7 +8,7 @@ export function NavButtons(props) {
   return (
     <>
       <Nav.Link href={link}>
-        <Button>{type}</Button>
+        <p className="navbuttons p-2">{type}</p>
       </Nav.Link>
     </>
   );
