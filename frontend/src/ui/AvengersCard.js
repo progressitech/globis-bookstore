@@ -7,12 +7,10 @@ export function AvengersCard(props) {
 
     return (
         <>
-            <Col lg={3}>
+            <Col lg={2}>
                 <Container fluid>
-                    <img className="img-fluid rounded-circle" src={image} alt="Placeholder"/>
+                    <img className="img-fluid" src={image} alt="Placeholder"/>
                 </Container>
-                <br/>
-                <br/>
                 <Container className="rounded border border-secondary mb-4">
                     <p>{name}: {info}</p>
                 </Container>
