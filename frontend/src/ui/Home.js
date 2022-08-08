@@ -14,14 +14,10 @@ export function Home() {
       </Container>
       <Container className="bg-white text-center">
         <Row>
-          <p class="text-light bg-dark fs-6 text-center mb-0">GLOBIS</p>
-          <p class="border border-dark website-icon fs-6 text-center mb-0 px-1">
-            BOOKSTORE
-          </p>
           <h1>BEST SELLERS</h1>
         </Row>
       </Container>
-      <Container className="book-container text-light text-center">
+      <Container className="book-container text-light text-center p-3 my-3">
         <Row>
           <Avengers />
         </Row>
@@ -42,7 +38,7 @@ export function Home() {
               THERE'S NO <br />
               SUCH THING AS TOO <br /> MANY BOOKS
             </h1>
-            <button className="border-light bg-transparent">
+            <button className="border-light text-light bg-transparent px-4 py-2">
               Read Our Story
             </button>
           </Row>
