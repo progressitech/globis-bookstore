@@ -57,7 +57,14 @@ export function Contact() {
                   Email <br /> info@my-domain.com
                 </p>
                 <br />
-                <p>Social Media Icons/Links</p>
+                <i className="fa-brands fa-facebook-f pe-4"></i>
+                    <a href=""></a>
+                <i className="fa-brands fa-twitter pe-4"></i>
+                    <a href=""></a>
+                <i className="fa-brands fa-instagram pe-4"></i>
+                    <a href=""></a>
+                <i className="fa-brands fa-pinterest-p"></i>
+                    <a href=""></a>
               </Col>
             </Row>
             <form
@@ -76,8 +83,7 @@ export function Contact() {
                       placeholder="Name"
                       className="form-control rounded-0"
                     />
-                    <label for="name" class="">
-                    </label>
+                    <label for="name" class=""></label>
                   </div>
                 </Col>
                 <Col md={6}>
@@ -89,8 +95,7 @@ export function Contact() {
                       placeholder="Email"
                       className="form-control rounded-0"
                     />
-                    <label for="email" class="">
-                    </label>
+                    <label for="email" class=""></label>
                   </div>
                 </Col>
               </Row>
