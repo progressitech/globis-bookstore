@@ -18,9 +18,9 @@ export function Bookstore() {
             <DropdownButton 
             id="dropdown-basic-button" 
             title="Sort by"
-            variant="outline-dark border-dark rounded-0 pr-5"
-            className="">
-              <Dropdown.ItemText>Sort by</Dropdown.ItemText>
+            variant="outline-dark border-dark rounded-0"
+            className="bookstore-dropdown-button">
+              <Dropdown.ItemText className="bg-secondary">Sort by</Dropdown.ItemText>
               <Dropdown.Item href="#/action-1">Newest</Dropdown.Item>
               <Dropdown.Item href="#/action-2">Price (low to high)</Dropdown.Item>
               <Dropdown.Item href="#/action-3">Price (high to low)</Dropdown.Item>
