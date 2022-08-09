@@ -247,8 +247,6 @@ input[type=text] {
 }
 
 input[type=text]:hover {
-    background: transparent;
-    border: none;
     border-bottom: 2px solid var(--primary-color);
 }
 
@@ -256,16 +254,15 @@ input[type=text]:hover {
     background: transparent;
     border: none;
     border-bottom: 1px solid var(--primary-color);
+    resize: none;
 }
 
 #message[type=text]:hover {
-    background: transparent;
-    border: none;
     border-bottom: 2px solid var(--primary-color);
 }
 
 @media (max-width: 978px) {
-    
+
   /* Navbar */
 
   .navbar-spacing {
