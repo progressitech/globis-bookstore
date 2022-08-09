@@ -12,6 +12,7 @@
 }
 
 /* Navigation Bar */
+
 .website-icon-upper {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -70,6 +71,10 @@
   }
   
 /* Homepage */
+
+.container-1 {
+    max-width: 30rem;
+}
 
 .container-1-image {
   background: url(https://placehold.jp/1860x500.png) no-repeat center center;

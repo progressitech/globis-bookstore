@@ -23,7 +23,7 @@ export function Home() {
       >
         <Row>
           <h1>BEST SELLERS</h1>
-         <hr />
+          <hr />
         </Row>
         <Row>
           <Books />
@@ -43,7 +43,7 @@ export function Home() {
         <Row>
           <h1 className="container-1-h1">
             THERE'S NO <br />
-            SUCH THING AS TOO <br /> 
+            SUCH THING AS TOO <br />
             MANY BOOKS
           </h1>
         </Row>
