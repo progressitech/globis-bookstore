@@ -246,6 +246,19 @@ html {
   margin: none;
 }
 
+input[type=text] {
+    border: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+#message[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+}
+
 @media (max-width: 978px) {
   /* Navbar */
 

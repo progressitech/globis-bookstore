@@ -74,7 +74,7 @@ export function Contact() {
                       id="name"
                       name="name"
                       placeholder="Name"
-                      class="form-control"
+                      className="form-control rounded-0"
                     />
                     <label for="name" class="">
                     </label>
@@ -87,7 +87,7 @@ export function Contact() {
                       id="email"
                       name="email"
                       placeholder="Email"
-                      class="form-control"
+                      className="form-control rounded-0"
                     />
                     <label for="email" class="">
                     </label>
@@ -101,9 +101,10 @@ export function Contact() {
                       type="text"
                       id="message"
                       name="message"
+                      placeholder="Type your message here..."
                       rows="2"
-                      className="form-control md-textarea"
-                    >Type your message here...</textarea>
+                      className="form-control md-textarea rounded-0"
+                    ></textarea>
                     <label for="message"></label>
                   </div>
                 </Col>
