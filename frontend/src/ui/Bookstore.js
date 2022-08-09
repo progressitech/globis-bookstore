@@ -18,15 +18,7 @@ export function Bookstore() {
             <hr />
           </Col>
           <Col md={9} className="d-flex justify-content-end">
-            <DropdownButton
-              id="dropdown-basic-button"
-              title="Sort by"
-              variant="outline-dark border-dark rounded-0"
-              className="bookstore-dropdown-button"
-            >
-              <Dropdown.ItemText className="bg-secondary">
-                Sort by
-              </Dropdown.ItemText>
+            <DropdownButton title="Sort by" variant="rounded-0">
               <Dropdown.Item href="#/action-1">Newest</Dropdown.Item>
               <Dropdown.Item href="#/action-2">
                 Price (low to high)
