@@ -10,7 +10,7 @@ export function Navigation() {
       type: "Bookstore",
     },
     {
-      link: "/events",
+      link: "/#events",
       type: "Events",
     },
     {

@@ -8,7 +8,7 @@ export function NavButtons(props) {
   return (
     <>
       <Nav.Link href={link}>
-        <p className="navbuttons p-2">{type}</p>
+        <p className="navbuttons">{type}</p>
       </Nav.Link>
     </>
   );

@@ -46,7 +46,7 @@ export function Home() {
 
       <Container className="my-5">
         <Row>
-          <Col md={12} className="section-title">
+          <Col md={12} className="section-title" id="events">
             <h5>Coming Up</h5>
             <h1>BOOK LAUNCH</h1>
           </Col>

@@ -4,6 +4,10 @@
   --on-primary: rgba(14, 52, 90, 0.7);
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 .link-unstyled,
 .link-unstyled:link,
 .link-unstyled:hover {
@@ -50,6 +54,7 @@
 
 .navbuttons {
   color: var(--primary-color);
+  padding: 1rem;
 }
 
 .navbuttons:hover {
