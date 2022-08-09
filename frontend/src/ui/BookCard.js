@@ -1,20 +1,26 @@
-import React from 'react'
-import {Col, Container} from "react-bootstrap";
+import React from "react";
+import { Col, Container, Image } from "react-bootstrap";
 
 export function BookCard(props) {
+  const { title, price } = props.book;
 
-    const {image, name, info} = props.avenger
-
-    return (
-        <>
-            <Col lg={2}>
-                <Container fluid>
-                    <img className="img-fluid" src={image} alt="Placeholder"/>
-                </Container>
-                <Container className="rounded border border-secondary mb-4">
-                    <p>{name}: {info}</p>
-                </Container>
-            </Col>
-        </>
-    )
+  return (
+    <>
+      <Col lg={2} md={4} sm={6}>
+        <Container fluid>
+          <Image
+            fluid
+            src="https://innovating.capital/wp-content/uploads/2021/05/vertical-placeholder-image.jpg"
+            className="place-holder-image-1 bookstore-books"
+            alt="Place-holder Book Cover"
+          />
+          <p>
+            {title}
+            <br />
+            {price}
+          </p>
+        </Container>
+      </Col>
+    </>
+  );
 }

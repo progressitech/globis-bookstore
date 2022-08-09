@@ -34,7 +34,7 @@ export function Navigation() {
   return (
     <>
       <Navbar expand="lg">
-        <Container fluid className="mx-5 px-5">
+        <Container fluid className="navbar-spacing">
           <Navbar.Brand href="/">
             <p class="website-icon-upper">GLOBIS</p>
             <p class="website-icon-lower">

@@ -4,41 +4,41 @@ import { BookCard } from "./BookCard";
 export function Books() {
   const books = [
     {
-      name: "Iron Man",
       image: "https:",
-      info: "A wealthy American business magnate, playboy, philanthropist, inventor and ingenious scientist.",
+      title: "Test book",
+      price: "$19.99",
     },
     {
-      name: "Hulk",
       image: "https:",
-      info: "Following his accidental exposure to gamma rays while saving the life of.",
+      title: "Test book",
+      price: "$15.00",
     },
     {
-      name: "Thor",
       image: "https:",
-      info: "Thor Odinson or simply Thor, is a fictional character appearing in American comic books publ. ",
+      title: "Test book",
+      price: "$20.00",
     },
     {
-      name: "Captain America",
       image: "https:",
-      info: 'Captain America is the alter ego of Steve Rogers, a frail young artist enhanced to the peak.',
+      title: "Test book",
+      price: "$17.00",
     },
     {
-      name: "Captain America",
       image: "https:",
-      info: 'Captain America is the alter ego of Steve Rogers, a frail young artist enhanced to t.',
+      title: "Test book",
+      price: "$12.99",
     },
     {
-      name: "Captain America",
       image: "https:",
-      info: 'Captain America is the alter ego of Steve Rogers, a frail young artist enhanced to the pea.',
+      title: "Test book",
+      price: "$24.00",
     },
   ];
 
   return (
     <>
       {books.map((book) => (
-        <BookCard avenger={book} key={book.name} />
+        <BookCard book={book} key={book.name} />
       ))}
     </>
   );
