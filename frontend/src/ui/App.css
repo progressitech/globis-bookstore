@@ -190,7 +190,7 @@ html {
   margin: 11rem 0 0 12rem;
   position: absolute;
   z-index: 2;
-  background-color: var(--secondary-color);
+  background-color: white;
   border: 1rem solid var(--primary-color);
 }
 
@@ -201,7 +201,7 @@ html {
   margin: 22rem 0 0 42rem;
   position: absolute;
   z-index: 3;
-  background-color: var(--secondary-color);
+  background-color: white;
   border: 1rem solid var(--primary-color);
 }
 
@@ -209,10 +209,51 @@ html {
   margin: 0 0 0 3.5rem;
 }
 
+/* Contact */
+
+.contact-container {
+  background-color: rgb(235, 235, 235);
+  color: var(--primary-color);
+  height: 50rem;
+  margin: 2rem 0 7rem 0;
+  position: relative;
+}
+
+#contact-form-container {
+  height: 45rem;
+  width: 60rem;
+  margin: -2rem 0 0 10rem;
+  padding: 4rem;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  border: 1rem solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+#contact-form {
+  margin-top: 2.5rem;
+}
+
+#message {
+  height: 8rem;
+}
+
+#contact-form-button {
+  background-color: white;
+  color: var(--primary-color);
+  border: none;
+  margin: none;
+}
+
 @media (max-width: 978px) {
+  /* Navbar */
+
   .navbar-spacing {
     margin: 0.5rem;
   }
+
+  /* Homepage */
 
   .container-1-image {
     height: 20rem;
@@ -229,6 +270,8 @@ html {
     padding: 1.5rem;
     color: var(--primary-color);
   }
+
+  /* About */
 
   .about-us-container {
     background-color: rgb(235, 235, 235);
@@ -259,39 +302,22 @@ html {
   .list-item-spacing {
     margin: 0 0 0 3.5rem;
   }
-}
 
-/* Contact */
+  /* Contact */
 
-.contact-container {
-  background-color: rgb(235, 235, 235);
-  height: 50rem;
-  margin: 2rem 0 7rem 0;
-  position: relative;
-}
+  .contact-container {
+    background-color: rgb(235, 235, 235);
+    height: 40rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
 
-#contact-form-container {
-  height: 45rem;
-  width: 60rem;
-  margin: -2rem 0 0 10rem;
-  padding: 4rem;
-  position: absolute;
-  z-index: 1;
-  background-color: white;
-  border: 1rem solid var(--primary-color);
-}
+  #contact-form-container {
+        height: auto;
+        width: auto;
+        padding: 1rem;
+        margin: 0;
+  }
 
-#contact-form {
-  margin-top: 2.5rem;
-}
-
-#message {
-  height: 8rem;
-}
-
-#contact-form-button {
-  background-color: white;
-  color: var(--primary-color);
-  border: none;
-  margin: none;
 }
