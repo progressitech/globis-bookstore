@@ -39,7 +39,7 @@ html {
 .website-icon-lower {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  border: .2rem solid var(--primary-color);
+  border: 0.2rem solid var(--primary-color);
   text-align: center;
   font-size: 0.75rem;
   margin: 0;
@@ -114,7 +114,7 @@ html {
 .our-story-button {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  border: .1rem solid var(--secondary-color);
+  border: 0.1rem solid var(--secondary-color);
   padding: 0.3rem 1rem;
 }
 
@@ -132,7 +132,7 @@ html {
 .rsvp-button {
   background-color: transparent;
   color: var(--primary-color);
-  border: .1rem solid var(--primary-color);
+  border: 0.1rem solid var(--primary-color);
   padding: 0.5rem 2.5rem;
 }
 
@@ -150,7 +150,7 @@ html {
 }
 
 .book-launch-image {
-  border: .9rem solid var(--primary-color);
+  border: 0.9rem solid var(--primary-color);
 }
 /* Bookstore */
 
@@ -211,7 +211,7 @@ html {
 
 @media (max-width: 978px) {
   .navbar-spacing {
-    margin: .5rem;
+    margin: 0.5rem;
   }
 
   .container-1-image {
@@ -259,4 +259,39 @@ html {
   .list-item-spacing {
     margin: 0 0 0 3.5rem;
   }
+}
+
+/* Contact */
+
+.contact-container {
+  background-color: rgb(235, 235, 235);
+  height: 50rem;
+  margin: 2rem 0 7rem 0;
+  position: relative;
+}
+
+#contact-form-container {
+  height: 45rem;
+  width: 60rem;
+  margin: -2rem 0 0 10rem;
+  padding: 4rem;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  border: 1rem solid var(--primary-color);
+}
+
+#contact-form {
+  margin-top: 2.5rem;
+}
+
+#message {
+  height: 8rem;
+}
+
+#contact-form-button {
+  background-color: white;
+  color: var(--primary-color);
+  border: none;
+  margin: none;
 }

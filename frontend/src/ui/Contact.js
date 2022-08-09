@@ -1,10 +1,125 @@
-import React from "react"
-import {Col, Container, Row} from "react-bootstrap"
+import React from "react";
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 export function Contact() {
-    return (
-        <>
-
-        </>
-    )
+  return (
+    <>
+      <Container className="text-center mb-4">
+        <Row>
+          <h4>For More Info</h4>
+          <h1>CONTACT US</h1>
+        </Row>
+      </Container>
+      <Container fluid className="d-flex justify-content-center">
+        <Container className="contact-container">
+          <Container id="contact-form-container">
+            <Row>
+              <Col md={4}>
+                <h3> Store 01</h3>
+                <br />
+                <p>
+                  Address <br /> 500 Terry Francois St. <br />
+                  SF, CA 94158
+                </p>
+                <p>
+                  Tel <br />
+                  123-456-789
+                </p>
+                <br />
+                <p>
+                  Email <br /> info@my-domain.com
+                </p>
+              </Col>
+              <Col md={4}>
+                <h3>Store 02</h3>
+                <br />
+                <p>Bealeton, Virginia</p>
+                <br />
+                <br />
+                <p>
+                  Tel <br />
+                  +1 (571) 376 - 3319
+                </p>
+                <br />
+                <p>
+                  Email <br /> samuelasiedu@hotmail.com
+                </p>
+              </Col>
+              <Col md={4}>
+                <h3>Customer Service</h3>
+                <br />
+                <p>
+                  Tel <br /> 1-800-000-0000
+                </p>
+                <br />
+                <br />
+                <p>
+                  Email <br /> info@my-domain.com
+                </p>
+                <br />
+                <p>Social Media Icons/Links</p>
+              </Col>
+            </Row>
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="mail.php"
+              method="POST"
+            >
+              <Row>
+                <Col md={6}>
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Name"
+                      class="form-control"
+                    />
+                    <label for="name" class="">
+                    </label>
+                  </div>
+                </Col>
+                <Col md={6}>
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      placeholder="Email"
+                      class="form-control"
+                    />
+                    <label for="email" class="">
+                    </label>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col md={12}>
+                  <div class="md-form">
+                    <textarea
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows="2"
+                      className="form-control md-textarea"
+                    >Type your message here...</textarea>
+                    <label for="message"></label>
+                  </div>
+                </Col>
+              </Row>
+            </form>
+            <Row>
+              <Button
+                id="contact-form-button"
+                onclick="document.getElementById('contact-form').submit();"
+              >
+                Submit
+              </Button>
+            </Row>
+          </Container>
+        </Container>
+      </Container>
+    </>
+  );
 }
