@@ -12,12 +12,13 @@ export function Bookstore() {
         </Row>
       </Container>
       <Container fluid>
-        <Row>
+        <Row className="d-flex px-5">
           <Col md={3}></Col>
-          <Col md={9} className="mr-auto">
+          <Col md={9} className="d-flex justify-content-end">
             <DropdownButton 
             id="dropdown-basic-button" 
             title="Sort by"
+            variant="outline-dark border-dark rounded-0 pr-5"
             className="">
               <Dropdown.ItemText>Sort by</Dropdown.ItemText>
               <Dropdown.Item href="#/action-1">Newest</Dropdown.Item>
