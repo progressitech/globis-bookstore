@@ -145,6 +145,18 @@
 .book-launch-image {
   border: .9rem solid var(--primary-color);
 }
+/* Bookstore */
+
+.bookstore-dropdown-button {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.bookstore-dropdown-button:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  transition-duration: 750ms;
+}
 
 /* About Us */
 
