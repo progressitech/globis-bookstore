@@ -4,7 +4,6 @@ import "./App.css";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import { Home } from "./Home";
 import { Bookstore } from "./Bookstore";
-import { Events } from "./Events";
 import { Contact } from "./Contact";
 import { Login } from "./Login";
 import { Cart } from "./Cart";
@@ -20,7 +19,6 @@ export function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/bookstore" component={Bookstore} />
-          <Route exact path="/events" component={Events} />
           <Route exact path="/about-us" component={AboutUs} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/login" component={Login} />
