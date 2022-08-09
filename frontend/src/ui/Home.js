@@ -5,22 +5,14 @@ import { Books } from "./Books";
 export function Home() {
   return (
     <>
-      <Container
-        fluid
-        className="container-1-image bg-opacity-10 rounded mb-5"
-      >
+      <Container fluid className="container-1-image bg-opacity-10 rounded mb-5">
         <p className="container-1-text text-danger">Special deals,</p>
         <p className="container-1-text text-light">Interesting</p>
         <p className="container-1-text text-success">Books,</p>
-        <p className="container-1-text text-primary">
-          At best prices.
-        </p>
+        <p className="container-1-text text-primary">At best prices.</p>
       </Container>
 
-      <Container
-        fluid
-        className="text-light text-center p-4"
-      >
+      <Container fluid className="text-light text-center p-4">
         <Container fluid className="book-container">
           <Row>
             <h1>BEST SELLERS</h1>
@@ -42,7 +34,7 @@ export function Home() {
           <br />
           <hr />
           <Row>
-            <h1 className="container-1-h1">
+            <h1 className="container-1-text">
               THERE'S NO <br />
               SUCH THING AS TOO <br />
               MANY BOOKS
@@ -54,7 +46,7 @@ export function Home() {
 
       <Container className="my-5">
         <Row>
-          <Col md={12} className="book-launch-header text-center pb-4">
+          <Col md={12} className="section-title">
             <h5>Coming Up</h5>
             <h1>BOOK LAUNCH</h1>
           </Col>
