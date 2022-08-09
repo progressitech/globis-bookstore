@@ -4,7 +4,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 export function Contact() {
   return (
     <>
-      <Container className="text-center mb-4">
+      <Container className="section-title">
         <Row>
           <h4>For More Info</h4>
           <h1>CONTACT US</h1>
