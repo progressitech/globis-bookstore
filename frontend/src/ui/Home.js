@@ -5,15 +5,17 @@ import { Books } from "./Books";
 export function Home() {
   return (
     <>
-      <Container fluid className="container-1-image bg-opacity-10 rounded mb-5">
-        <p className="container-1-text text-danger">Special deals,</p>
-        <p className="container-1-text text-light">Interesting</p>
-        <p className="container-1-text text-success">Books,</p>
-        <p className="container-1-text text-primary">At best prices.</p>
+      <Container fluid className="p-4">
+        <Container fluid id="homepage-image">
+          <p className="container-1-text text-danger">Special deals,</p>
+          <p className="container-1-text text-light">Interesting</p>
+          <p className="container-1-text text-success">Books,</p>
+          <p className="container-1-text text-primary">At best prices.</p>
+        </Container>
       </Container>
 
       <Container fluid className="text-light text-center p-4">
-        <Container fluid className="book-container">
+        <Container fluid id="book-container">
           <Row>
             <h1>BEST SELLERS</h1>
             <hr />
@@ -40,7 +42,7 @@ export function Home() {
               MANY BOOKS
             </h1>
           </Row>
-          <button className="our-story-button mt-3">Read Our Story</button>
+          <button id="our-story-button">Read Our Story</button>
         </Container>
       </Container>
 
@@ -52,7 +54,7 @@ export function Home() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} className="book-launch-text-column">
+          <Col md={6} id="book-launch-text-column">
             <h5 className="mb-4">Introducing "Plausible Accolade"</h5>
             <h6 className="mb-4">By Samuel Kumi Asiedu</h6>
             <br />
@@ -63,13 +65,14 @@ export function Home() {
             <h6 className="mb-2">Where</h6>
             <hr />
             <h6 className="mb-5">Video Conference</h6>
-            <button className="rsvp-button">RSVP NOW</button>
+            <button id="rsvp-button">RSVP NOW</button>
           </Col>
           <Col md={6}>
             <Image
               fluid
+              id="book-launch-image"
               src="https://innovating.capital/wp-content/uploads/2021/05/vertical-placeholder-image.jpg"
-              className="place-holder-image-1 book-launch-image"
+              className="place-holder-image-1"
               alt="Place-holder Book Cover"
             />
           </Col>

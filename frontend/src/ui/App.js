@@ -5,7 +5,6 @@ import { Route, BrowserRouter, Switch } from "react-router-dom";
 import { Home } from "./Home";
 import { Bookstore } from "./Bookstore";
 import { Contact } from "./Contact";
-import { Login } from "./Login";
 import { Cart } from "./Cart";
 import { AboutUs } from "./AboutUs";
 import { Navigation } from "./Navigation";
@@ -21,7 +20,6 @@ export function App() {
           <Route exact path="/bookstore" component={Bookstore} />
           <Route exact path="/about-us" component={AboutUs} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/login" component={Login} />
           <Route exact path="/cart" component={Cart} />
         </Switch>
         <Footer />

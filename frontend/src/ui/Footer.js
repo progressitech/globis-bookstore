@@ -4,14 +4,17 @@ import "./App.css";
 
 export function Footer() {
   return (
-    <Container fluid className="footer-background-color">
+    <Container fluid className="background-primary-color">
       <Container className="bg-opacity-100 py-4">
         <footer className="text-light text-center py-4">
           <Row>
             <Col md={3}>
               <p>Globis Bookstore</p>
               <br />
-              <p>Bealeton, Virginia, USA <br />+1 (571) 376-3319</p>
+              <p>
+                Bealeton, Virginia, USA <br />
+                +1 (571) 376-3319
+              </p>
               <a
                 href="mailto:samuelasiedu@hotmail.com"
                 className="link-unstyled"
@@ -72,18 +75,24 @@ export function Footer() {
               <p>Be The First To Know</p>
               <br />
               <p>Sign up for our newsletter</p>
-              <form method="POST">
+              <form
+                id="subscribe"
+                name="subscribe"
+                action="add subscriber to backend database"
+                method="POST"
+              >
                 <p>
                   <input
                     type="email"
                     name="email"
-                    id="email"
                     placeholder="Enter your email here"
-                    className="email-input footer-background-color text-light ps-2"
+                    className="background-primary-color text-light ps-2"
                   />
                 </p>
                 <p>
-                  <button type="submit" className="footer-submit-button">Subscribe</button>
+                  <button type="submit" id="footer-submit-button">
+                    Subscribe
+                  </button>
                 </p>
               </form>
             </Col>

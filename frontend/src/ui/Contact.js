@@ -11,7 +11,7 @@ export function Contact() {
         </Row>
       </Container>
       <Container fluid className="d-flex justify-content-center">
-        <Container className="contact-container">
+        <Container id="contact-container">
           <Container id="contact-form-container">
             <Row>
               <Col md={4}>
@@ -57,14 +57,18 @@ export function Contact() {
                   Email <br /> info@my-domain.com
                 </p>
                 <br />
-                <i className="fa-brands fa-facebook-f pe-4"></i>
-                    <a href=""></a>
-                <i className="fa-brands fa-twitter pe-4"></i>
-                    <a href=""></a>
-                <i className="fa-brands fa-instagram pe-4"></i>
-                    <a href=""></a>
-                <i className="fa-brands fa-pinterest-p"></i>
-                    <a href=""></a>
+                <a href="https://www.facebook.com/">
+                  <i className="fa-brands fa-facebook-f social-icons"></i>
+                </a>
+                <a href="https://www.twitter.com/">
+                  <i className="fa-brands fa-twitter social-icons"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                  <i className="fa-brands fa-instagram social-icons"></i>
+                </a>
+                <a href="https://www.pinterest.com/">
+                  <i className="fa-brands fa-pinterest-p social-icons"></i>
+                </a>
               </Col>
             </Row>
             <form
@@ -114,15 +118,16 @@ export function Contact() {
                   </div>
                 </Col>
               </Row>
+              <Row>
+                <Button
+                  type="submit"
+                  id="contact-form-button"
+                  onclick="document.getElementById('contact-form').submit();"
+                >
+                  Submit
+                </Button>
+              </Row>
             </form>
-            <Row>
-              <Button
-                id="contact-form-button"
-                onclick="document.getElementById('contact-form').submit();"
-              >
-                Submit
-              </Button>
-            </Row>
           </Container>
         </Container>
       </Container>

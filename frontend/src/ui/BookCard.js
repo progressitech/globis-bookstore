@@ -14,7 +14,7 @@ export function BookCard(props) {
             className="place-holder-image-1 bookstore-books"
             alt="Place-holder Book Cover"
           />
-          <p>
+          <p className="text-center">
             {title}
             <br />
             {price}

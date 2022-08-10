@@ -5,7 +5,7 @@ import { Books } from "./Books";
 export function Bookstore() {
   return (
     <>
-      <Container fluid className="text-center">
+      <Container fluid className="section-title">
         <Row>
           <h5>Our</h5>
           <h1>BOOKSTORE</h1>
@@ -29,6 +29,74 @@ export function Bookstore() {
               <Dropdown.Item href="#/action-3">Name A-Z</Dropdown.Item>
               <Dropdown.Item href="#/action-3">Name Z-A</Dropdown.Item>
             </DropdownButton>
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid>
+        <Row className="px-5">
+          <Col md={3}>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Collection
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">Lorem ipsum</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Price
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">dolor sit amet</div>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col md={9}>
+            <Container id="bookstore-container">
+              <Row>
+                <Books />
+              </Row>
+              <Row>
+                <Books />
+              </Row>
+              <Row>
+                <Books />
+              </Row>
+              <Row>
+                <Books />
+              </Row>
+            </Container>
           </Col>
         </Row>
       </Container>

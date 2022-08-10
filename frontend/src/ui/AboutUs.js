@@ -9,7 +9,7 @@ export function AboutUs() {
         <h1>STORY</h1>
       </Container>
       <Container fluid className="d-flex justify-content-center">
-        <Container className="about-us-container">
+        <Container id="about-us-container">
           <div id="about-us-image">
             <img src="https://placehold.jp/725x600.png" alt="Placeholder" />
           </div>
