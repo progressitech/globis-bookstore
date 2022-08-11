@@ -348,4 +348,23 @@ input[type="text"]:hover {
     padding: 1rem;
     margin: 0;
   }
+
+  #contact-form-container p {
+    margin: 0;
+  }
+
+  #contact-form-container h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #contact-form-container i {
+    margin-top: 1rem;
+  }
+  
+
+  #contact-form-container br {
+    display: none;
+  }
+
 }
